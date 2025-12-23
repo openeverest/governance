@@ -6,8 +6,7 @@ This document defines governance policies for the OpenEverest project.
 
 > **"Simplifying database management. Everywhere."**
 
-Managing stateful workloads remains a significant hurdle for many engineering teams, p
-articularly when moving away from managed cloud services. Our vision is simple: enable 
+Managing stateful workloads remains a significant hurdle for many engineering teams, particularly when moving away from managed cloud services. Our vision is simple: enable 
 teams to run databases anywhere—on-premise, hybrid, or multi-cloud—without sacrificing usability, security, or reliability.
 
 While Kubernetes Operators exist to solve this, they often demand a steep learning curve and deep familiarity with specific Custom Resources (CRs). 
