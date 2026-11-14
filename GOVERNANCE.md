@@ -61,15 +61,40 @@ Ultimately, a maintainer acts as a model citizen of the OpenEverest community, d
 The maintainer group is self-governing. New maintainers must be nominated by an existing maintainer. 
 Both appointments and removals are decided by a **two-thirds (⅔) majority vote** of the current maintainers.
 
-If a maintainer steps down or is removed via a vote, they are transitioned to **Emeritus** status to acknowledge their past contributions.
+The full path from contributor to maintainer, including Reviewer and Component Maintainer roles, onboarding, inactivity and emeritus status, is described in the [Contributor Ladder](CONTRIBUTOR_LADDER.md).
+
+If a maintainer steps down, becomes inactive or is removed via a vote, they are transitioned to **Emeritus** status to acknowledge their past contributions.
+
+### Company Diversity
+
+The project aims for maintainers from many organizations, so that no single company controls its direction. 
+Our goal is that **no single company employs a majority of Project Maintainers by November 2027**. 
+Maintainers actively mentor contributors from other organizations through the [Contributor Ladder](CONTRIBUTOR_LADDER.md), starting with Component Maintainer roles for providers and plugins. 
+Progress is reviewed at least every six months in a public community meeting.
 
 ### GitHub Permissions and Administration
 
 In terms of repository management:
-* **Maintainers Team:** All active maintainers are added to the `maintainers` team on GitHub. 
+* **Maintainers Team:** All active Project Maintainers are added to the `maintainers` team on GitHub. 
 This grants them the **Maintain** role across all OpenEverest repositories, allowing them to manage issues, review PRs, and merge code.
+* **Component Maintainers and Reviewers** get the **Maintain** or **Triage** role on the repositories they are responsible for.
 * **Admins Team:** Maintainers willing to take on additional administrative burdens (such as repository configuration and secret management) may be appointed to the `admins` team. 
 This grants the **Admin** role across the organization.
+
+## Subprojects
+
+All repositories in the [openeverest](https://github.com/openeverest) organization are governed by this document and share its maintainers, Code of Conduct and [security policy](https://github.com/openeverest/openeverest/blob/main/SECURITY.md). 
+New repositories are created, and unmaintained ones archived, by [lazy consensus](#lazy-consensus) of the Project Maintainers; this list is updated accordingly.
+
+* **Core:** [openeverest](https://github.com/openeverest/openeverest), [openeverest-operator](https://github.com/openeverest/openeverest-operator), [provider-sdk](https://github.com/openeverest/provider-sdk), [helm-charts](https://github.com/openeverest/helm-charts)
+* **Providers:** [provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse), [provider-cassandra](https://github.com/openeverest/provider-cassandra), [provider-cloudnative-pg](https://github.com/openeverest/provider-cloudnative-pg), [provider-kserve](https://github.com/openeverest/provider-kserve), [provider-kubeai](https://github.com/openeverest/provider-kubeai), [provider-mariadb](https://github.com/openeverest/provider-mariadb), [provider-milvus](https://github.com/openeverest/provider-milvus), [provider-opensearch](https://github.com/openeverest/provider-opensearch), [provider-percona-postgresql](https://github.com/openeverest/provider-percona-postgresql), [provider-percona-server-mongodb](https://github.com/openeverest/provider-percona-server-mongodb), [provider-percona-server-mysql](https://github.com/openeverest/provider-percona-server-mysql), [provider-percona-xtradb-cluster](https://github.com/openeverest/provider-percona-xtradb-cluster), [provider-seaweedfs](https://github.com/openeverest/provider-seaweedfs), [provider-strimzi-kafka](https://github.com/openeverest/provider-strimzi-kafka), [provider-tidb](https://github.com/openeverest/provider-tidb), [provider-valkey](https://github.com/openeverest/provider-valkey)
+* **Plugins:** [plugin-audit](https://github.com/openeverest/plugin-audit), [plugin-bench](https://github.com/openeverest/plugin-bench), [plugin-hub](https://github.com/openeverest/plugin-hub), [plugin-inspector](https://github.com/openeverest/plugin-inspector), [plugin-metrics](https://github.com/openeverest/plugin-metrics), [plugin-migrations](https://github.com/openeverest/plugin-migrations), [plugin-mongodb-explorer](https://github.com/openeverest/plugin-mongodb-explorer), [plugin-user-management](https://github.com/openeverest/plugin-user-management)
+* **Monitoring integrations:** [monitoring-coroot](https://github.com/openeverest/monitoring-coroot), [monitoring-pmm](https://github.com/openeverest/monitoring-pmm), [monitoring-prometheus](https://github.com/openeverest/monitoring-prometheus), [monitoring-victoriametrics](https://github.com/openeverest/monitoring-victoriametrics)
+* **Templates:** [provider-example](https://github.com/openeverest/provider-example), [generic-plugin-template](https://github.com/openeverest/generic-plugin-template)
+* **Tooling and distribution:** [hub](https://github.com/openeverest/hub), [openeverest-catalog](https://github.com/openeverest/openeverest-catalog), [homebrew-tap](https://github.com/openeverest/homebrew-tap)
+* **Documentation and website:** [docs](https://github.com/openeverest/docs), [everest-doc](https://github.com/openeverest/everest-doc), [openeverest.github.io](https://github.com/openeverest/openeverest.github.io)
+
+Project infrastructure (no shipped code): [governance](https://github.com/openeverest/governance), [.project](https://github.com/openeverest/.project), [.github](https://github.com/openeverest/.github), [roadmap](https://github.com/openeverest/roadmap), [specs](https://github.com/openeverest/specs), [vision](https://github.com/openeverest/vision).
 
 ## Meetings and Communication
 
