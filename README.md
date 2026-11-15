@@ -9,5 +9,6 @@ project:
 
 * [Governance Policy](./GOVERNANCE.md)
 * [List of Maintainers](./MAINTAINERS.md)
+* [Contributor Ladder](./CONTRIBUTOR_LADDER.md)
 * [Code of Conduct](./CODE_OF_CONDUCT.md)
 * [License](./LICENSE)

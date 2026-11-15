@@ -1,8 +1,8 @@
 # OpenEverest Maintainers
 
-Maintainers are added and removed as described in [GOVERNANCE.md](./GOVERNANCE.md#changes-in-leadership).
+Maintainers are added and removed as described in [GOVERNANCE.md](./GOVERNANCE.md#changes-in-leadership) and the [Contributor Ladder](./CONTRIBUTOR_LADDER.md).
 
-## Active Maintainers
+## Project Maintainers
 
 In alphabetical order:
 
@@ -13,3 +13,13 @@ In alphabetical order:
 | Iaroslavna Soloveva | [@solovevayaroslavna](https://github.com/solovevayaroslavna) | Solanica | UI and plugin SDK, e2e testing | iaroslavna.soloveva@solanica.io |
 | Oksana Grishchenko | [@oksana-grishchenko](https://github.com/oksana-grishchenko) | Percona | Percona providers (PostgreSQL, XtraDB Cluster, Server for MySQL, Server for MongoDB), openeverest-operator | oksana.grishchenko@percona.com |
 | Sergey Pronin | [@spron-in](https://github.com/spron-in) | Solanica | Project lead, providers (non-Percona) and plugins, website, community | sp@solanica.io |
+
+## Component Maintainers
+
+Component Maintainers own specific repositories. See the [Contributor Ladder](./CONTRIBUTOR_LADDER.md#component-maintainer).
+
+None yet.
+
+## Emeritus Maintainers
+
+None yet.
