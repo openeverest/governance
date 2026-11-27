@@ -92,7 +92,7 @@ New repositories are created, and unmaintained ones archived, by [lazy consensus
 * **Monitoring integrations:** [monitoring-coroot](https://github.com/openeverest/monitoring-coroot), [monitoring-pmm](https://github.com/openeverest/monitoring-pmm), [monitoring-prometheus](https://github.com/openeverest/monitoring-prometheus), [monitoring-victoriametrics](https://github.com/openeverest/monitoring-victoriametrics)
 * **Templates:** [provider-example](https://github.com/openeverest/provider-example), [generic-plugin-template](https://github.com/openeverest/generic-plugin-template)
 * **Tooling and distribution:** [hub](https://github.com/openeverest/hub), [openeverest-catalog](https://github.com/openeverest/openeverest-catalog), [homebrew-tap](https://github.com/openeverest/homebrew-tap)
-* **Documentation and website:** [docs](https://github.com/openeverest/docs), [everest-doc](https://github.com/openeverest/everest-doc), [openeverest.github.io](https://github.com/openeverest/openeverest.github.io)
+* **Documentation and website:** [docs](https://github.com/openeverest/docs), [openeverest.github.io](https://github.com/openeverest/openeverest.github.io)
 
 Project infrastructure (no shipped code): [governance](https://github.com/openeverest/governance), [.project](https://github.com/openeverest/.project), [.github](https://github.com/openeverest/.github), [roadmap](https://github.com/openeverest/roadmap), [specs](https://github.com/openeverest/specs), [vision](https://github.com/openeverest/vision).
 
